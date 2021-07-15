@@ -1,65 +1,30 @@
-﻿# Título do projeto
+﻿# Livraria Casa do Código
 
-Um parágrafo da descrição do projeto vai aqui
+Projeto de site feito com .Net Core 5.0, JavaScript e csHTML para o cliente Alura 
 
-## 🚀 Começando
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+## 🚀 START
 
-Consulte Implantação para saber como implantar o projeto.
+Baixe o projeto e abra a solução CasaDoCodigo.sln e aperte executar na IDE favorita para iniciar o projeto.
 
-📋 Pré-requisitos
-De que coisas você precisa para instalar o software e como instalá-lo?
+O Projeto já é implementado para usar o EntityFramework para comunicação com banco de dados local. Caso queira
+utilizar o seu bando de dados, altere as configuraçãos no arquivo Startup.cs .
 
-Dar exemplos
-🔧 Instalação
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+## 📋 Pré-requisitos
 
-Diga como essa etapa será:
+* .NET 5
+* .IDE FAVORITA (EU UTILIZEI O VISUAL STUDIO 2019)
 
-Dar exemplos
-E repita:
+## ⚙️ Executando os testes 
 
-Até finalizar
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+Utilizamos os teste automatizados unitários para verificar se a página e os tratamentos utilizados foram 
+feitos corretamentes. Caso queira verificá-los, ir na pasta Testes da aplicação.
 
-⚙️ Executando os testes
-Explicar como executar os testes automatizados para este sistema.
 
-🔩 Analise os testes de ponta a ponta
-Explique que eles verificam esses testes e porquê.
+## 📦 Desenvolvimento 
 
-Dar exemplos
-⌨️ E testes de estilo de codificação
-Explique que eles verificam esses testes e porquê.
+Projeto foi desenvolvido para ser um site de e-commerce de Livros para desenvolvedor, com características similares a de grandes sites do mesmo tipo
+de segmento. 
 
-Dar exemplos
-📦 Desenvolvimento
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
+## 📌 Versão 
 
-🛠️ Construído com
-Mencione as ferramentas que você usou para criar seu projeto
-
-Dropwizard - O framework web usado
-Maven - Gerente de Dependência
-ROME - Usada para gerar RSS
-🖇️ Colaborando
-Por favor, leia o COLABORACAO.md para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-📌 Versão
 Nós usamos SemVer para controle de versão. Para as versões disponíveis, observe as tags neste repositório.
-
-✒️ Autores
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-Um desenvolvedor - Trabalho Inicial - umdesenvolvedor
-Fulano De Tal - Documentação - fulanodetal
-Você também pode ver a lista de todos os colaboradores que participaram deste projeto.
-
-📄 Licença
-Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE.md para detalhes.
-
-🎁 Expressões de gratidão
-Conte a outras pessoas sobre este projeto 📢
-Convide alguém da equipe para uma cerveja 🍺
-Obrigado publicamente 🤓.
-etc.
