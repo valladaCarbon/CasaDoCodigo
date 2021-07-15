@@ -112,3 +112,5 @@ C:\Users\andy_\Documents\Projetos\CSharp\CasaDoCodigo\obj\Debug\net5.0\CasaDoCod
 C:\Users\andy_\Documents\Projetos\CSharp\CasaDoCodigo\obj\Debug\net5.0\CasaDoCodigo.Views.pdb
 C:\Users\andy_\Documents\Projetos\CSharp\CasaDoCodigo\obj\Debug\net5.0\CasaDoCodigo.csproj.CopyComplete
 C:\Users\andy_\Documents\Projetos\CSharp\CasaDoCodigo\obj\Debug\net5.0\CasaDoCodigo.genruntimeconfig.cache
+C:\Users\andy_\Documents\Projetos\CSharp\CasaDoCodigo\bin\Debug\net5.0\Humanizer.dll
+C:\Users\andy_\Documents\Projetos\CSharp\CasaDoCodigo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

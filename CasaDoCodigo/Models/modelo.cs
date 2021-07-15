@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
@@ -12,6 +13,9 @@ namespace CasaDoCodigo.Models
     {
         [DataMember]
         public int Id { get; protected set; }
+
+        [ForeignKey("Id")]
+        public int ForeignKey { get; protected set; }
     }
 
     public class Produto : BaseModel
