@@ -5792,36 +5792,30 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.8",
+      "Microsoft.EntityFrameworkCore.Design >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andy_\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Anderson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andy_\\Documents\\Projetos\\CSharp\\CasaDoCodigo\\CasaDoCodigo.csproj",
+      "projectUniqueName": "C:\\Users\\Anderson\\Documents\\GitHub\\CasaDoCodigo\\CasaDoCodigo\\CasaDoCodigo.csproj",
       "projectName": "CasaDoCodigo",
-      "projectPath": "C:\\Users\\andy_\\Documents\\Projetos\\CSharp\\CasaDoCodigo\\CasaDoCodigo.csproj",
-      "packagesPath": "C:\\Users\\andy_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andy_\\Documents\\Projetos\\CSharp\\CasaDoCodigo\\obj\\",
+      "projectPath": "C:\\Users\\Anderson\\Documents\\GitHub\\CasaDoCodigo\\CasaDoCodigo\\CasaDoCodigo.csproj",
+      "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anderson\\Documents\\GitHub\\CasaDoCodigo\\CasaDoCodigo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\andy_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Anderson\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5841,6 +5835,12 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.8, )"
           },
@@ -5873,7 +5873,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
