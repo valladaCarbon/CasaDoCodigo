@@ -188,3 +188,4 @@ C:\Users\Anderson\Documents\GitHub\CasaDoCodigo\CasaDoCodigo\obj\Debug\net5.0\Ca
 C:\Users\Anderson\Documents\GitHub\CasaDoCodigo\CasaDoCodigo\obj\Debug\net5.0\ref\CasaDoCodigo.dll
 C:\Users\Anderson\Documents\GitHub\CasaDoCodigo\CasaDoCodigo\obj\Debug\net5.0\CasaDoCodigo.pdb
 C:\Users\Anderson\Documents\GitHub\CasaDoCodigo\CasaDoCodigo\obj\Debug\net5.0\CasaDoCodigo.genruntimeconfig.cache
+C:\Users\Anderson\Documents\GitHub\CasaDoCodigo\CasaDoCodigo\bin\Debug\net5.0\livros.json
