@@ -1,6 +1,7 @@
 using System.IO;
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using CasaDoCodigo.Models;
 
 namespace CasaDoCodigo
 
@@ -22,6 +23,16 @@ namespace CasaDoCodigo
 
             var json = File.ReadAllText("livros.json");
             var livros = JsonConvert.DeserializeObject<List<Livro>>(json);
+
+            foreach(var livro in livros)
+            {
+                contexto
+                    .Set<Produto>()
+                    .Add(new Produto(livro.Codigo, livro.Nome, livro.Preco));
+
+            }
+
+            contexto.SaveChanges();
         }
     }
 
