@@ -1,18 +1,18 @@
 ﻿# Livraria Casa do Código
 
-Projeto de site feito com .Net Core 5.0, JavaScript e csHTML para o cliente Alura 
+Projeto de site feito com .Net Core, JavaScript e csHTML para o cliente Alura 
 
 ## 🚀 START
 
 Baixe o projeto e abra a solução CasaDoCodigo.sln e aperte executar na IDE favorita para iniciar o projeto.
 
 O Projeto já é implementado para usar o EntityFramework para comunicação com banco de dados local. Caso queira
-utilizar o seu bando de dados, altere as configuraçãos no arquivo Startup.cs .
+utilizar o seu bando de dados, altere as configuraçãos no arquivo appsettings.cs .
 
 ## 📋 Pré-requisitos
 
 * .NET 5
-* .IDE FAVORITA (EU UTILIZEI O VISUAL STUDIO 2019)
+* .IDE FAVORITA (EU UTILIZEI O VISUAL STUDIO CODE)
 
 ## ⚙️ Executando os testes 
 
