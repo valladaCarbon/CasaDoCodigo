@@ -3,16 +3,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CasaDoCodigo.Repositories
 {
-    public class BaseRepository
+    public class BaseRepository<T> where T : BaseModel
     {
         
-        private readonly ApplicationContext contexto;
-        private readonly DbSet<Produto> dbSet;
+        protected readonly ApplicationContext contexto;
+        protected readonly DbSet<T> dbSet;
 
-        public ProdutoRepository(ApplicationContext contexto)
+        public BaseRepository(ApplicationContext contexto)
         {
             this.contexto = contexto;
-            dbSet = contexto.Set<Produto>();
+            dbSet = contexto.Set<T>();
         }
     }
 }

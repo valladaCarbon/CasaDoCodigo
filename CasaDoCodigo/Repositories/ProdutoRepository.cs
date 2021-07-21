@@ -6,15 +6,10 @@ using Microsoft.EntityFrameworkCore;
 namespace CasaDoCodigo.Repositories
 {
 
-    public class ProdutoRepository : IProdutoRepository
+    public class ProdutoRepository : BaseRepository<Produto>, IProdutoRepository
     {
-        private readonly ApplicationContext contexto;
-        private readonly DbSet<Produto> dbSet;
-
-        public ProdutoRepository(ApplicationContext contexto)
+        public ProdutoRepository(ApplicationContext contexto) : base(contexto)
         {
-            this.contexto = contexto;
-            dbSet = contexto.Set<Produto>();
         }
 
         public IList<Produto> GetProdutos()
